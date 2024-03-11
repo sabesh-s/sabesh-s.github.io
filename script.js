@@ -1,1 +1,3 @@
-console.log("Hello Sabesh")
+click(){
+    console.log("Hello Sabesh")
+}

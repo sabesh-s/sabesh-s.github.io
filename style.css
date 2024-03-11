@@ -1,0 +1,15 @@
+button {
+    padding: 2px;
+    background-color: blue;
+    color: yellow;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    padding: 2px;
+}
+button:active {
+    background-color: skyblue;
+    color: black;
+    padding: 2px;
+}
