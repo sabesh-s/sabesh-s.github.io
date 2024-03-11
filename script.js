@@ -1,3 +1,4 @@
-click(){
+click()
+{
     console.log("Hello Sabesh")
 }
