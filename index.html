@@ -7,14 +7,103 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="wrapper">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#home" class="logo"><img src="sabeshlogo.png" alt="sabesh"></a>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home-section" id="home">
+        <h1>Hi there, welcome to my page...</h1>
+    </section>
+    <section class="about-section" id="about">
+        <h1>About</h1>
         <div>
-            <button type="submit" onclick="click()">Click me</button>
+            <p id="intro">
+                I'm Sabesh. <br>
+                I am a HR Recruiter and also a freelance recruiter. <br>
+                I have strong expertise in finding right candidate for right job. <br>
+            </p>
         </div>
-        <div id="output">
-
+        <div class="Experience">
+            <h1>Experience</h1>
+            <div class="about-grid">
+                <div class="about-griditem year">
+                    Nov 2022 - Jul 2023
+                </div>
+                <div class="about-griditem content">
+                    <p>
+                        Recruiter <br>
+                        Sunrise Biztech System, Bangalore.
+                    </p>
+                </div>
+                <div class="about-griditem year">
+                    Jan 2021 - Jan 2022
+                </div>
+                <div class="about-griditem content">
+                    <p>
+                        Customer Service Executive <br>
+                        Shriram Transort Finance Co. Ltd., Tiruppur.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <div class="Education">
+            <h1>Education</h1>
+            <div class="about-grid">
+                <div class="about-griditem year">
+                    Apr 2017
+                </div>
+                <div class="about-griditem content">
+                    <p class="content-item">
+                        MBA in HR, Finance <br>
+                        Bharathidasan School of Management, Bharathidasan University, Trichy.</p>
+                    </p>
+                </div>
+                <div class="about-griditem year">
+                    Apr 2020
+                </div>
+                <div class="about-griditem content">
+                    <p class="content-item">
+                        BE in Mechanical Engineering <br>
+                        Sri Ramakrishna Institute of Technology, Coimbatore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section" id="skills">
+        <h1>Skills</h1>
+        <div class="skills-wrapper">
+            <ul class="grid-container">
+                <li class="grid-item">Staffing</li>
+                <li class="grid-item">Sourcing</li>
+                <li class="grid-item">Screening</li>
+                <li class="grid-item">IT Recruiting</li>
+                <li class="grid-item">Contract Recruiting</li>
+                <li class="grid-item">Talent Acquisition</li>
+                <li class="grid-item">Negotiation</li>
+                <li class="grid-item">Interviewing</li>
+                <li class="grid-item">ATS</li>
+                <li class="grid-item">Naukri</li>
+                <li class="grid-item">Linkedin</li>
+                <li class="grid-item">Github</li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-section" id="contact">
+        <h1>Contact</h1>
+        <p>Contact me using the following details.</p>
+        <ul class="contact" id="contact">
+            <li><a href="https://github.com" id="profile-link" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/sabesh-s/" target="_blank">Linkedin</a></li>
+            <li><a href="mailto:sabeshsps@gmail.com" target="_blank">Gmail: sabeshsps@gmail.com</a></li>
+        </ul>
+    </section>
 </body>
 </html>
